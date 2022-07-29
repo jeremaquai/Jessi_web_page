@@ -3,7 +3,8 @@
     1. Responsive Styles
     2. Global Styles
     3. Typography Styles
-    4. 
+    4. Modules Styles
+    5. Components Styles
 */
 
 /* 1. Responsive Styles */
@@ -21,15 +22,23 @@
     
 }
 /* 2. Global Styles */
+
 body {
     font-size: 16px;
 }
+
+.hidden {
+    display: none;
+}
+
+/* 3. Typography Styles */
 
 #large h1, #large h2 {
     position: relative;
     top: 6rem;
 }
 
+/* 4. Modules Styles */
 .jumbotron#large {
     min-height: 400px;
     background-image: url(../images/allstate.svg);
@@ -47,7 +56,35 @@ body {
     align-items: center;
 }
 
+.container {
+    margin-top: 50px;
+}
+
+footer {
+    margin: 5px 15px;
+}
+
+/* 5. Components Styles */
+
 .text-container {
     align-content: center;
 }
 
+.contact {
+    list-style: none;
+}
+
+
+.location ul {
+    list-style: none;
+}
+
+.license_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img_container img {
+    max-width: 100%;
+    height: auto;
+}
